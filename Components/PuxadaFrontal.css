@@ -1,0 +1,57 @@
+
+.exercise-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: #202024;     
+  padding: 16px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.exercise-main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;                      
+}
+
+/* Imagen del ejercicio */
+.exercise-thumb {
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+
+.exercise-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;                     
+}
+
+
+.exercise-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.exercise-stats {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #C4C4CC;
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+.exercise-arrow-icon {
+  opacity: 0.7;
+}
